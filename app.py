@@ -6,7 +6,6 @@ app = Flask(__name__)
 @app.route('/bot')
 def bot():
     bot_functionality()
-    return 'ROUTE @POST /bot'
 
 @app.route('/up')
 def up():
