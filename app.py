@@ -3,7 +3,7 @@ from bot import bot_functionality
 
 app = Flask(__name__)
 
-@app.route('/bot', methods=['POST'])
+@app.route('/bot')
 def bot():
     bot_functionality()
     return 'ROUTE @POST /bot'
